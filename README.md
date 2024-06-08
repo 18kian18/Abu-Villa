@@ -4,9 +4,20 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 
-# Files
+# Part and Prices
+| Items| Lists |Cost
+|--|--|--|--|--|
+|SpeedyBee Frame |ASDADS|SFSF
+| XING Motors| |
+| SpeedyBee F7 V3 Stack| |
+| Radio Master rp1 reciever| |
+| AKK X-2 Ultimate VTX| |
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+
+
+
+
+
 
 ## Create files and folders
 
