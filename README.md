@@ -5,19 +5,14 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 # Part and Prices
-| Items| Lists |Cost
-|--|--|--|--|--|
-|SpeedyBee Frame |ASDADS|SFSF
-| XING Motors| |
-| SpeedyBee F7 V3 Stack| |
-| Radio Master rp1 reciever| |
-| AKK X-2 Ultimate VTX| |
 
-
-
-
-
-
+|      ITEM            |Parts and List			 |HTML       |
+|----------------------|-------------------------|-----------|
+|SpeedyBee Frame       |                         |           |
+|XING Motors	       |                         |           |
+|SpeedyBee F7 V3 Stack |                         |           |
+|Radio Master rp1 	   |                         |           |
+|AKK X-2 Ultimate VTX  |                         |           |
 
 ## Create files and folders
 
