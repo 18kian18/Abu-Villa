@@ -2,19 +2,14 @@
 
 Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
 
-
-
-<<<<<<< HEAD
-# Part and Prices
-=======
 ## Part and Prices
 |      ITEM            |Parts and List			 |HTML       |
-|----------------------|-------------------------|-----------|
-|SpeedyBee Frame       |                         |           |
-|XING Motors	       |                         |           |
-|SpeedyBee F7 V3 Stack |                         |           |
-|Radio Master rp1 	   |                         |           |
-|AKK X-2 Ultimate VTX  |                         |           |
+|----------------------|---------------------------------|-----------|
+|SpeedyBee Frame       |                         	 |           |
+|XING Motors	       |                         	 |           |
+|SpeedyBee F7 V3 Stack |                         	 |           |
+|Radio Master rp1      |                         	 |           |
+|AKK X-2 Ultimate VTX  |                         	 |           |
 
 ## Create files and folders
 
