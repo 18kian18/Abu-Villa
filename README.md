@@ -96,7 +96,47 @@ Install arms and anti-vibration module
 ![alt text](8.png)
 
  - ## Wiring Diagram
+Before proceeding, it’s a good idea to create a wiring diagram on a piece of paper outlining how to connect all the components. If you’re using the components I recommended, here are connection diagrams you can follow.
+![alt text](wiringfc.png)
+![alt text](motors-wiring.png)
 
+## 1. Installing ESC <br>
+Begin by replacing the four shorter screws in the frame with the long M3 30mm bolts that come with the Speedybee F405 V3 stack. Avoid using nylon standoffs for installing FC, ESC and VTX, they break easily in crashes. Use metal bolts instead.
+Use metal bolts for installing stack (with a metal nut at the botttom), it reduces vibration and wobble, makes the drone fly better and easier to tune.
+
+- Slide the 4in1 ESC and FC boards onto the four long screws, ensuring the ESC board’s power pads face backward and the motor solder pads face up. The front of the frame is identifiable by the cut-outs for the camera mounting plates.
+- Inspect the bottom of the ESC to ensure it’s not touching the frame. Additionally, check for any contact between the ESC and FC.
+Next, you’ll do some soldering
+## 2. Installing Motors  
+- Determine the required motor wire lengths, leaving a little slack, and cut them accordingly. Secure the motor wires on the arms with cloth tape or electrical tape.
+- Then, strip about 2mm off the tip of the wires and tin the ends.
+- Using the trimmed off motor wires, solder two of them to the input power of the ESC (ideally on the bottom side). Mark the positive wires with a piece of tape to solder the capacitor to later. 
+- Tin all the solder pads on the 4in1 ESC. To prevent solder from accidentally dropping onto the components and causing electrical shorts, cover the areas of the board where you’re not soldering with tape, such as electrical tape, kapton tape, or masking tape.
+
+Solder the motor wires onto the ESC. Don’t worry about wire order and motor direction yet; you can change this later in the software. If you have the skills, you could try to solder motor wires side way, make it nicer to grab the quad.
+
+Solder the XT60 power lead to the power pads on the ESC, making sure to maintain the correct polarity (positive and negative). This step may be challenging due to the amount of heat required to melt the solder on the large copper pads. Be patient and use a higher temperature on your iron.
+
+Soldering Tips:
+- Use a good amount of solder and solder flux (solder paste) for the large pads, ensuring the solder joints are shiny and full. If you can see the wire strands, you haven’t applied enough solder.
+- Apply more flux if the solder “sticks” to the tip when you remove it from the joint.
+- Feel free to use a high temperature when soldering large solder pads, but be quick and avoid overheating the pads for too long. Use 450°C (840°F) for motor wires and XT60, and 380°C for signal wires.
+- Now solder the 1500uF capacitor that comes with the Speedybee stack. Bend and shorten the legs with pliers, then tin them with solder.
+- Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
+
+## 2. Installing Camera
+- Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
+
+## 3. Installing GPS 
+- Solder the **5v** wire of the gps to the **4v5** pad of the FC 
+- Solder the **G** wire of the GPS to the **G** pad of the FC
+- Solder the **TX** wire of the gps to the **T6** pad of the FC
+- Solder the **RX** wire of the gps to the **R6** pad of the FC
+- Solder the **SDA** wire of the gps to the **SDA** pad of the FC
+- Solder the **SCL** wire of the gps to the **SCL** pad of the FC
+
+## 3. Installing Receiver
+ 
 
 ## Software
 ![alt text](inav.png)
