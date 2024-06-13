@@ -23,7 +23,8 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 ## Steps of Building FPV Drone
-<li><b style='font-size:20px'>Frame Assembly</b></li> 
+<li><b>Frame Assembly</b></li> 
+
 
 ![alt text](speedybeelogo.png)
 
