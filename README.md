@@ -24,6 +24,8 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 ## Software
 ![alt text](inav.png)
+
+Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
  
 ## Switch to another file
 
