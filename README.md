@@ -25,15 +25,15 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 ## Steps of Building FPV Drone
 ![alt text](speedybeelogo.png)
 
-<b>Speedy Bee Master 5 V2 Frame
+<b>Speedy Bee Master 5 V2 Frame</b>
 
 ![alt text](frame.png)
 
-<b>CNC camera mount and camera side plate installation
+<b>CNC camera mount and camera side plate installation</b>
 
 ![alt text](cameramount.png)
 
-<b>Antenna Installation Sequence
+<b>Antenna Installation Sequence</b>
 
 ![alt text](antennamount.png)
 
