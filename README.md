@@ -23,77 +23,18 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 ## Steps of Building FPV Drone
- - ## Frame Assembly 
-<br>
-
-![alt text](speedybeelogo.png)
-
-<b>Speedy Bee Master 5 V2 Frame</b>
-
+ - ## SpeedyBee Master 5 V2 Frame
 ![alt text](frame.png)
+<p align="center"><span style="color:#E5C129; font-size:30px">Installation Guidelines</span><br></p>
 
-<b>CNC camera mount and camera side plate installation</b>
-
-![alt text](cameramount.png)
-
-<b>Antenna Installation Sequence</b>
-
-![alt text](antennamount.png)
-
-<li>insert the O-ring into the antenna to secure it on the TPU antenna base.</li>
-
-![alt text](tpuantenna.png)
-
-<b>Install the multi-function antenna base</b>
-
-<b>Note:</b>pictures for assembly reference only. The frame doesn`t include antenna
-
-1. Install the plate on one side and the GPS base
-![alt text](1.png)
-
-2. Install the T-shaped antenna
-![alt text](2.png)
-
-3. Install the plate on the other side
-
-Install arms and anti-vibration module
-![alt text](4.png)
-
-<b>(Complete the installation of 4 arms in turn)</b>
-
-1. Screws pass through the bottom plate and the intersection position of the arms in turn
-2. Install the anti-vibration stack module to the corresponding position
-![alt text](5.png)
-
-3. Install the screws on both sides in the same way
-4. Install 4 arms in the same way
-
-<b>Install middle plate</b>
-
-1. Install the middle plate to the corresponding 6 screw positions
-![alt text](5.png)
-
-2. Tighten the two press-in nuts where the arms intersect
-
-<b>Combination with completed parts 1 and 2</b>
-
-![alt text](6.png)
-1. Combination of frame and CNC camera mount
-
-<b>Install the rear top plate and battery anti-slip silicone</b>
-
-<b>Arm foot mount installation</b>
-
-![alt text](7.png)
-
-1. Instal the 3D-printed foot mount to the arms
-2. Use a screw of proper length based on the motor installation
-
-(<b>*Notice:</b> default screws are M3*8, M3*10)
-
-<b>The completed build SpeedyBee frame</b>
-
-![alt text](8.png)
+![alt text](img1.png)
+![alt text](img2.png)
+![alt text](img3.png)
+![alt text](img4.png)
+![alt text](img5.png)
+![alt text](img6.png)
+![alt text](img7.png)
+![alt text](img8.png)
 
  - ## Wiring Diagram
 Before proceeding, it’s a good idea to create a wiring diagram on a piece of paper outlining how to connect all the components. If you’re using the components I recommended, here are connection diagrams you can follow.
