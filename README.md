@@ -23,8 +23,8 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 ## Software
-
-
+![alt text](inav.png)
+ 
 ## Switch to another file
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
