@@ -23,6 +23,8 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 ## Steps of Building FPV Drone
+<li><b>1. Frame Assembly</b></li> 
+
 ![alt text](speedybeelogo.png)
 
 <b>Speedy Bee Master 5 V2 Frame</b>
