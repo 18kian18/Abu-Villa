@@ -67,6 +67,31 @@ Install arms and anti-vibration module
 
 <b>Install middle plate</b>
 
+1. Install the middle plate to the corresponding 6 screw positions
+![alt text](5.png)
+
+2. Tighten the two press-in nuts where the arms intersect
+
+<b>Combination with completed parts 1 and 2</b>
+
+![alt text](6.png)
+1. Combination of frame and CNC camera mount
+
+<b>Install the rear top plate and battery anti-slip silicone</b>
+
+<b>Arm foot mount installation</b>
+
+![alt text](7.png)
+
+1. Instal the 3D-printed foot mount to the arms
+2. Use a screw of proper length based on the motor installation
+
+(<b>*Notice:</b> default screws are M3*8, M3*10)
+
+<b>The completed build SpeedyBee frame</b>
+
+![alt text](8.png)
+
 
 ## Software
 ![alt text](inav.png)
