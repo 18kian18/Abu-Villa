@@ -2,7 +2,7 @@
 
 Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
 
-# Part and Prices
+# Parts and Prices
 
 |      ITEM            |Parts and List			 |Price      |
 |----------------------|-------------------------|-----------|
