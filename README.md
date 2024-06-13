@@ -65,7 +65,7 @@ Install arms and anti-vibration module
 3. Install the screws on both sides in the same way
 4. Install 4 arms in the same way
 
-<p style="size:15px; font-weight:bold">Install middle plate</p>
+<p style="font-size: 16px; font-weight: bold">Install middle plate</p>
 
 
 ## Software
