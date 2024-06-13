@@ -23,7 +23,7 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 ## Steps of Building FPV Drone
-<li><b>Frame Assembly</b></li> 
+ - ## Frame Assembly 
 <br>
 
 ![alt text](speedybeelogo.png)
@@ -95,7 +95,7 @@ Install arms and anti-vibration module
 
 ![alt text](8.png)
 
-<li><b>Wiring Diagram</b></li> 
+ - ## Wiring Diagram
 
 
 ## Software
