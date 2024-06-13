@@ -1,22 +1,29 @@
-﻿# Abu Villa Drone Build
+﻿# Building a Drone
 
 Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
 
-# Parts and Prices
 
-|      ITEM            |Parts and List			 |Price      |
-|----------------------|-------------------------|-----------|
-|SpeedyBee Frame       |                         |           |
-|XING Motors	       |                         |           |
-|SpeedyBee F7 V3 Stack |                         |           |
-|Radio Master rp1 	   |                         |           |
-|AKK X-2 Ultimate VTX  |                         |           |
-|Radio Master tx12`s   |                         |           |
-|Cobra X Goggles   	   |                         |           |
 
-## Create files and folders
+# Parts List
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+| Component      |								 | Links                |
+|----------------|-------------------------------|-------------------------|
+|Frame			 |SpeedyBee Master 5 V2			 |		https://www.amazon.com/gp/product/B0CB6BTR4Z/ref=ewc_pr_img_1?smid=A1CA0481MF6RWW&psc=1		           |
+|FC & ESC (stack)|SpeedyBee V3 F7 Stack			 |https://www.amazon.com/gp/product/B0B5QYXJNT/ref=ewc_pr_img_6?smid=A1CA0481MF6RWW&psc=1		          |
+|Motors          |iFlight XING2 2306 1755KV 6S	 |https://www.amazon.com/gp/product/B0925DSVW2/ref=ewc_pr_img_10?smid=APE1PBQE6ZIBF&psc=1	           |
+|Propellers      |Gemfan Hurricane               |https://www.amazon.com/gp/product/B09C8BZ27H/ref=ewc_pr_img_7?smid=A1DSGSQT9B8Q93&psc=1		           |
+|Battery         |Gaoneng LiPo Drone Battery 1850mah 6S 100c XT-60					             |https://shopee.ph/Gaoneng-(GNB)-LiPo-Drone-Battery-1850mah-6S-100c-XT-60-i.59088184.12560887187?publish_id=&sp_atk=9a9aaaf1-2442-472e-bcd2-a91571376eca&xptdk=9a9aaaf1-2442-472e-bcd2-a91571376eca|
+|GPS Module      |BN-220 Dual GPS Glonass Module |https://www.amazon.com/gp/product/B07PRDY6DS/ref=ewc_pr_img_6?smid=A1GUQD3SRXOFFI&th=1	           |
+|Receiver        |RadioMaster RP1 2.4ghz w/ ELRS |https://www.amazon.com/gp/product/B0B93TCRGW/ref=ewc_pr_img_4?smid=A2TG3KYTBNKR2F&psc=1	           |
+|Transmitter     |RadioMaster TX16S 2.4GHz		 |https://www.amazon.com/RadioMaster-TX12-EdgeTX-Multi-Module-2%EF%BC%88ELRS%EF%BC%89/dp/B0BFH5H14V/ref=sr_1_4?crid=1Q0J5M3FXWRK6&dib=eyJ2IjoiMSJ9.mBkiOj_RhH0MLO7cMcUaq6UNN1JV2Rhtj6hY6vFbahJQ-Imsuiu-sCq7TGOknp_cvyazT9Ppvqt_a4EAyhH2p9mpesTUj0p3l14xy8xHz6fB-QrG3eJWaNJRMJgMjKmmjyEWaGRUEl1ktBoBDF5lmlbYPRPfDk6aST_LiVtbZOJp4Tbr4Vyy_1Tmi469o_UKa6aTznqkiA8TKXdL-ZdbDQRJwVv2773tAzbIaRlKAvnfNSj5-GRansPB2hqqIWHcqoFKboDfVbLXtgrOLsJhNbkVLE8yCHoEs5CHfGtiCQY.uf8WPytaII5n0OTFKscd2be6HrkesxFIH6RcqoxfhCA&dib_tag=se&keywords=radiomaster+tx12&qid=1718251797&sprefix=Radio+Master+tx1%2Caps%2C295&sr=8-4	           |
+|Goggles         |Skyzone Cobra X Goggles		 |https://www.amazon.com/Skyzone-1280x720-RapidMix-Receiver-Goggles/dp/B0CCNKNK9G/ref=sr_1_1_sspa?crid=SB96X8U3UVS3&dib=eyJ2IjoiMSJ9.9EBwDdKSKzPStXBGHrks370MxmgTaX17_B6zoIVZNExBgmcG7Ao4TlDMAf8SBdnP.z7WV0Ds62JTvMUieGKrjP1ql0Y2hX4qgHBQ896ObDlc&dib_tag=se&keywords=skyzone+cobra+x&qid=1718251843&sprefix=skyzone+cobra+x%2Caps%2C295&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1	           |
+|VTX             |AKK X2-Ultimate 5.8GHz		 |https://www.amazon.com/gp/product/B07DPG5H1T/ref=ewc_pr_img_9?smid=ADP3MHCS3NLR7&psc=1				           |
+|Antenna         |FPV Antenna Lollipop 5.8G      |https://www.amazon.com/Foxeer-Antenna-Lollipop-Quadcopeter-Multicopter/dp/B07D12XS6K/ref=sr_1_1_sspa?crid=3H40EROAFCYAP&dib=eyJ2IjoiMSJ9.Jt7L3QrOmSnwUyMs3tuZ9-BmRc3TePqGHvE7ZdBD6FcXQUNYMsyfc6D4JfBLkJQqEX24WSGeuaHKh2dSWdtqsdhLRk8n59sdYep0s2JFIVCvLzXIrJAdusf19crQ6sTzYA47eZ9VaX1ICErh8J8tOkfXc0JYkd7U3Ayw60a1NfjvqeOnRghX5iTaaz3RrXloiENvj9o4ScNyndPtPh-v5qbgz83JuRpap_hoNmbjP8o.AHQJoK3edZam7vw3gsF3BoA_SmVNuPlKPxlgoqI7wF8&dib_tag=se&keywords=lollipop+antenna&qid=1718251658&sprefix=lollipop+ante%2Caps%2C318&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1|
+|Camera          |RunCam Phoenix 2				 |https://www.amazon.com/gp/product/B0C2TK5JGR/ref=ewc_pr_img_8?smid=A1CA0481MF6RWW&psc=1	           |
+
+
+## Software
+
 
 ## Switch to another file
 
