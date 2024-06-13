@@ -1,35 +1,20 @@
-﻿# Building Drone
+﻿# Abu Villa Drone
 
 Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
 
 
 
-<<<<<<< HEAD
 # Part and Prices
-=======
-## Part and Prices
 
-|        ITEM       | Parts List | Cost |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| SpeedyBee Frame   | | $47.49 |
-| XING Motors	    | | $168   |
-| SpeedyBee F7 V3 Stack | | $27.99 |
-| Radio Master rp1 reciever | | $46.99 |
-| AKK X-2 Ultimate VTX | | $53.99 |
-
-
-
-
-
->>>>>>> 95a929923d0f206a601c5d0e8aeb4d9b9eb51485
-
-|      ITEM            |Parts and List			 |HTML       |
+|      ITEM            |Parts and List			 |Price      |
 |----------------------|-------------------------|-----------|
 |SpeedyBee Frame       |                         |           |
 |XING Motors	       |                         |           |
 |SpeedyBee F7 V3 Stack |                         |           |
 |Radio Master rp1 	   |                         |           |
 |AKK X-2 Ultimate VTX  |                         |           |
+|Radio Master tx12`s   |                         |           |
+|Cobra X Goggles   	   |                         |           |
 
 ## Create files and folders
 
