@@ -22,6 +22,9 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 |Camera          |RunCam Phoenix 2				 |https://www.amazon.com/gp/product/B0C2TK5JGR/ref=ewc_pr_img_8?smid=A1CA0481MF6RWW&psc=1	           |
 
 
+## Steps of Building FPV Drone
+![alt text](speedybeelogo.png)
+
 ## Software
 ![alt text](inav.png)
 
