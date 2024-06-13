@@ -39,6 +39,35 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 <li>insert the O-ring into the antenna to secure it on the TPU antenna base.</li>
 
+![alt text](tpuantenna.png)
+
+<b>Install the multi-function antenna base</b>
+
+<b>Note:</b>pictures for assembly reference only. The frame doesn`t include antenna
+
+1. Install the plate on one side and the GPS base
+![alt text](1.png)
+
+2. Install the T-shaped antenna
+![alt text](2.png)
+
+3. Install the plate on the other side
+
+Install arms and anti-vibration module
+![alt text](4.png)
+
+<b>(Complete the installation of 4 arms in turn)</b>
+
+1. Screws pass through the bottom plate and the intersection position of the arms in turn
+2. Install the anti-vibration stack module to the corresponding position
+![alt text](5.png)
+
+3. Install the screws on both sides in the same way
+4. Install 4 arms in the same way
+
+<b style="size:15px">Install middle plate</b>
+
+
 ## Software
 ![alt text](inav.png)
 
