@@ -95,6 +95,8 @@ Install arms and anti-vibration module
 
 ![alt text](8.png)
 
+<li><b>Wiring Diagram</b></li> 
+
 
 ## Software
 ![alt text](inav.png)
