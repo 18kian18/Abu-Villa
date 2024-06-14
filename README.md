@@ -66,17 +66,27 @@ Soldering Tips:
 - Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
 
 ## 2. Installing Camera
+![alt text](installcamera.png)
 - Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
 
-## 3. Installing GPS 
+## 3. Installing GPS to Flight Controller
+Wiring a GPS module to the flight controller is quite straightforward. Simply connect it directly to any available UART on the FC, (TX to RX, RX to TX), and power it with 5V.
+![alt text](<Electrical Diagram.png>)
 - Solder the **5v** wire of the gps to the **4v5** pad of the FC 
 - Solder the **G** wire of the GPS to the **G** pad of the FC
 - Solder the **TX** wire of the gps to the **T6** pad of the FC
 - Solder the **RX** wire of the gps to the **R6** pad of the FC
-- Solder the **SDA** wire of the gps to the **SDA** pad of the FC
-- Solder the **SCL** wire of the gps to the **SCL** pad of the FC
+- Solder the **SDA** wire of the gps to the **SDA** pad of the FC (if GPS has a compass/barometer) 
+- Solder the **SCL** wire of the gps to the **SCL** pad of the FC (if GPS has a compass/barometer)
 
 ## 3. Installing Receiver
+![alt text](receiver.png)
+- Solder the **5v** wire of the receiver  to the **4v5** pad of the FC
+- Solder the **G** wire of the receiver  to the **G** pad of the FC
+- Solder the **RX** wire of the receiver  to the **T2** pad of the FC
+- Solder the **TX** wire of the receiver  to the **R2** pad of the FC
+
+## 3. Installing VTX
  
 
 ## Software
