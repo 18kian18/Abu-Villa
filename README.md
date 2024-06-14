@@ -39,7 +39,7 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
  - ## Wiring Diagram
 Before proceeding, it’s a good idea to create a wiring diagram on a piece of paper outlining how to connect all the components. If you’re using the components I recommended, here are connection diagrams you can follow.
 ![alt text](wiringfc.png)
-![alt text](motors-wiring.png)
+
 
 ## 1. Installing ESC <br>
 Begin by replacing the four shorter screws in the frame with the long M3 30mm bolts that come with the Speedybee F405 V3 stack. Avoid using nylon standoffs for installing FC, ESC and VTX, they break easily in crashes. Use metal bolts instead.
@@ -48,7 +48,8 @@ Use metal bolts for installing stack (with a metal nut at the botttom), it reduc
 - Slide the 4in1 ESC and FC boards onto the four long screws, ensuring the ESC board’s power pads face backward and the motor solder pads face up. The front of the frame is identifiable by the cut-outs for the camera mounting plates.
 - Inspect the bottom of the ESC to ensure it’s not touching the frame. Additionally, check for any contact between the ESC and FC.
 Next, you’ll do some soldering
-## 2. Installing Motors  
+## 2. Installing Motors 
+![alt text](motors-wiring.png) 
 - Determine the required motor wire lengths, leaving a little slack, and cut them accordingly. Secure the motor wires on the arms with cloth tape or electrical tape.
 - Then, strip about 2mm off the tip of the wires and tin the ends.
 - Using the trimmed off motor wires, solder two of them to the input power of the ESC (ideally on the bottom side). Mark the positive wires with a piece of tape to solder the capacitor to later. 
