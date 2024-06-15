@@ -67,7 +67,7 @@ Soldering Tips:
 - Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
 
 ## 2. Installing Camera
-![alt text](installcamera.png)
+![alt text](RUNCAM.png)
 - Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
 
 ## 3. Installing GPS to Flight Controller
