@@ -88,7 +88,7 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 - Solder the **TX** wire of the receiver  to the **R2** pad of the FC
 
 ## 3. Installing VTX
- 
+ ![alt text](<VTX (1).png>)
 
 ## Software
 ![alt text](inav.png)
