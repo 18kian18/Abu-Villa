@@ -72,7 +72,7 @@ Soldering Tips:
 
 ## 3. Installing GPS to Flight Controller
 Wiring a GPS module to the flight controller is quite straightforward. Simply connect it directly to any available UART on the FC, (TX to RX, RX to TX), and power it with 5V.
-![alt text](<Electrical Diagram.png>)
+![alt text](modifyGPS.png)
 - Solder the **5v** wire of the gps to the **4v5** pad of the FC 
 - Solder the **G** wire of the GPS to the **G** pad of the FC
 - Solder the **TX** wire of the gps to the **T6** pad of the FC
