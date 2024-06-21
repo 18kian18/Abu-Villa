@@ -98,6 +98,9 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 ![alt text](img/inav.png)
 
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
+
+**Download iNav Configurator**<br>
+Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
  
 ## Switch to another file
 
