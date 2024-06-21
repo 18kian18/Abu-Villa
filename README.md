@@ -100,11 +100,30 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
 
 **Download iNav Configurator**<br>
-Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
- 
-## Switch to another file
+- Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+**Checking iNav Compatibility**<br>
+- Before proceeding, verify if your flight controller is compatible with iNav.
+In the iNav Configurator, on the Firmware Flasher page, search for your FC’s firmware target. If it’s listed, congratulations, you can proceed to the next step. If not compatible, consider getting a new FC, such as the Speedybee F405 V4 – an affordable, feature-rich option ideal for an iNav drone build.
+
+![alt text](img/firmware.png)
+ 
+
+ **Flashing  INAV**
+ - First if you have an existing setup in Betaflight you need to backup your setup before you proceed INAV, Then if you have done backup you setup in BetaFlight.<br> Select the firmware target for your FC. Note that the Auto-select button may not work if your FC is still running Betaflight.
+
+Enable “Full chip erase” and leave the other options unchecked. 
+
+![alt text](img/Flashing-INAV.png)
+
+
+**Default Values**
+- After installing iNav, you’ll be prompted to choose a preset that most closely matches your quad, such as 3-inch, 5-inch, or 7-inch quad.
+![alt text](img/sizequad.png)
+
+**Setup Tab**
+- In the first page – Setup, you can view the status of your drone.
+![alt text](img/setup-tab.png)
 
 ## Rename a file
 
