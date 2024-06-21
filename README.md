@@ -24,21 +24,21 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 ## Steps of Building FPV Drone
  - ## SpeedyBee Master 5 V2 Frame
-![alt text](frame.png)
+![alt text](img/frame.png)
 <p align="center"><span style="color:#E5C129; font-size:30px">Installation Guidelines</span><br></p>
 
-![alt text](img1.png)
-![alt text](img2.png)
-![alt text](img3.png)
-![alt text](img4.png)
-![alt text](img5.png)
-![alt text](img6.png)
-![alt text](img7.png)
-![alt text](img8.png)
+![alt text](img/img1.png)
+![alt text](img/img2.png)
+![alt text](img/img3.png)
+![alt text](img/img4.png)
+![alt text](img/img5.png)
+![alt text](img/img6.png)
+![alt text](img/img7.png)
+![alt text](img/img8.png)
 
  - ## Wiring Diagram
 Before proceeding, it’s a good idea to create a wiring diagram on a piece of paper outlining how to connect all the components. If you’re using the components I recommended, here are connection diagrams you can follow.
-![alt text](wiringfc.png)
+![alt text](img/wiringfc.png)
 
 
 ## 1. Installing ESC <br>
@@ -49,7 +49,7 @@ Use metal bolts for installing stack (with a metal nut at the botttom), it reduc
 - Inspect the bottom of the ESC to ensure it’s not touching the frame. Additionally, check for any contact between the ESC and FC.
 Next, you’ll do some soldering
 ## 2. Installing Motors 
-![alt text](motors-wiring.png) 
+![alt text](img/motors-wiring.png) 
 - Determine the required motor wire lengths, leaving a little slack, and cut them accordingly. Secure the motor wires on the arms with cloth tape or electrical tape.
 - Then, strip about 2mm off the tip of the wires and tin the ends.
 - Using the trimmed off motor wires, solder two of them to the input power of the ESC (ideally on the bottom side). Mark the positive wires with a piece of tape to solder the capacitor to later. 
@@ -67,12 +67,12 @@ Soldering Tips:
 - Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
 
 ## 2. Installing Camera
-![alt text](RUNCAM.png)
+![alt text](img/RUNCAM.png)
 - Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
 
 ## 3. Installing GPS to Flight Controller
 Wiring a GPS module to the flight controller is quite straightforward. Simply connect it directly to any available UART on the FC, (TX to RX, RX to TX), and power it with 5V.
-![alt text](modifyGPS.png)
+![alt text](img/modifyGPS.png)
 - Solder the **5v** wire of the gps to the **4v5** pad of the FC 
 - Solder the **G** wire of the GPS to the **G** pad of the FC
 - Solder the **TX** wire of the gps to the **T6** pad of the FC
@@ -81,21 +81,21 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 - Solder the **SCL** wire of the gps to the **SCL** pad of the FC (if GPS has a compass/barometer)
 
 ## 3. Installing Receiver
-![alt text](receiver.png)
+![alt text](img/receiver.png)
 - Solder the **5v** wire of the receiver  to the **4v5** pad of the FC
 - Solder the **G** wire of the receiver  to the **G** pad of the FC
 - Solder the **RX** wire of the receiver  to the **T2** pad of the FC
 - Solder the **TX** wire of the receiver  to the **R2** pad of the FC
 
 ## 3. Installing VTX
- ![alt text](<VTX (1).png>)
+ ![alt text](<img/VTX (1).png>)
 - Solder the **7-26v** wire of the vtx  to the **9v** pad of the FC
 - Solder the **G** wire of the vtx  to the **G** pad of the FC
 - Solder the **Video** wire of the vtx  to the **VTX** pad of the FC
 - Solder the **Smart Audio(SA)** wire of the recvtxeiver  to the **T1** pad of the FC
 
 ## Software
-![alt text](inav.png)
+![alt text](img/inav.png)
 
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
  
