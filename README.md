@@ -99,17 +99,17 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
 
-**Download iNav Configurator**<br>
+## Download iNav Configurator
 - Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
 
-**Checking iNav Compatibility**<br>
+## Checking iNav Compatibility
 - Before proceeding, verify if your flight controller is compatible with iNav.
 In the iNav Configurator, on the Firmware Flasher page, search for your FC’s firmware target. If it’s listed, congratulations, you can proceed to the next step. If not compatible, consider getting a new FC, such as the Speedybee F405 V4 – an affordable, feature-rich option ideal for an iNav drone build.
 
 ![alt text](img/firmware.png)
  
 
- **Flashing  INAV**
+ ## Flashing  INAV
  - First if you have an existing setup in Betaflight you need to backup your setup before you proceed INAV, Then if you have done backup you setup in BetaFlight.<br> Select the firmware target for your FC. Note that the Auto-select button may not work if your FC is still running Betaflight.
 
 Enable “Full chip erase” and leave the other options unchecked. 
@@ -117,15 +117,15 @@ Enable “Full chip erase” and leave the other options unchecked.
 ![alt text](img/Flashing-INAV.png)
 
 
-**Default Values**
+## Default Values
 - After installing iNav, you’ll be prompted to choose a preset that most closely matches your quad, such as 3-inch, 5-inch, or 7-inch quad.
 ![alt text](img/sizequad.png)
 
-**Setup Tab**
+## Setup Tab
 - In the first page – Setup, you can view the status of your drone.
 ![alt text](img/setup-tab.png)
 
-**Board Orientation**
+## Board Orientation
 
 Hold the drone in your hand, point the camera towards the computer screen, and click the “Reset Z-Axis” button. Now move the drone around and see if the 3D model moves exactly as you do.
 
@@ -133,7 +133,7 @@ Troubleshooting:
 - If the 3D model is inverted (upside down), and you have a red cross next to “UAV is levelled” in pre-arming checks, you can fix this in the board alignment tool, e.g., enter 180 in roll.
 - If the drone moves in the opposite direction because the FC is rotated, you can also correct this in the board alignment tool, e.g., enter 180 in yaw.
 
-**Calibration Tab**
+## Calibration Tab
 
 
 Here we will calibrate the accelerometer.
@@ -144,7 +144,7 @@ Place the drone on a level surface and go through the 6-step calibration. Note t
 
 It might seem a bit complicated at first, but don’t be afraid to start over if needed. The calibration doesn’t have to be super precise—just do your best to position the quad in each intended position.
 
-**Mixer Tab**
+##Mixer Tab
 
 Normally, you shouldn’t need to change anything here since the “Default Values” should have applied these settings for you. However, it’s good practice to double-check.
 
@@ -157,7 +157,7 @@ If you want to run reverse motor direction (props out), select “Reversed motor
 
 Click Save and Reboot.
 
-**Outputs Tab**
+## Outputs Tab
 
 This tab functions similarly to the Motors tab in Betaflight.
 
@@ -178,5 +178,48 @@ Now, test the motors using the sliders in the Outputs tab to check if they spin,
 
 ![alt text](img/outputsmotor.png)
 
-**Troubleshoot: What if the motor order is wrong?**
+**Troubleshoot: What if the motor order is wrong?**<br>
 Unlike Betaflight, iNav does not support resource remapping. To change motor order, you can adjust settings in the Mixer tab. Remember, after making changes, just hit Save and Reboot—there’s no need to click LOAD and APPLY. After changing the motor order in the Mixer, it won’t reflect in the outputs tab, but you should conduct a test hover to make sure it works correctly.
+
+
+## Ports Tab
+Setting up ports in iNav should feel familiar to those used to Betaflight. If you’ve taken screenshots from Betaflight, you can simply replicate the setup here.
+
+![alt text](img/portstab.png)
+
+## Configuration Tab
+In the Configuration tab, you can select the sensors connected to the flight controller, such as GPS, compass, barometer, optical flow sensor, etc.
+
+## How to bind receiver to transmitter?
+Here are the steps for binding a traditional RC receiver to a transmitter using the "plug in the battery 3 times" method.
+
+1. Prepare the transmitter:
+    - Turn on the transmitter
+    - Click "Sys" button on the right side of the transmitter
+    - Select ExpressELRS
+    - Locate the "BIND" labeled on the transmitter.
+2. Prepare the Receiver:
+    - Disconnect the receiver from any power source.
+
+3. Enter Binding Mode:
+    - Plug in the receiver's battery three times, pausing for a few seconds between each connection.
+    - On the third connection, the receiver's LED should start blinking, indicating it is in binding mode.
+
+4. Initiate Binding on the Transmitter:
+    - Press the "BIND" labeled on the transmitter.
+
+5. Wait for Successful Binding:
+    - The transmitter and receiver will now communicate and establish a connection.
+    - Once the binding is successful, the receiver's LED will typically change to a solid pattern.
+
+6. Verify the Connection:
+    - Move the transmitter's controls and observe the corresponding movements on the connected devices (e.g., servos, motors) on the receiver tab in INAV.
+
+## Receiver Tab
+For ExpressLRS or Crossfire receivers, select SERIAL as the receiver type, and CRSF as the receiver provider. Click Save and Reboot.
+
+Now, you can test the radio link to ensure the channel values correctly respond to your radio stick movements. If the channel order is wrong, try a different channel map.
+
+![alt text](img/receiverTab.png)
+
+I recommend setting “Use automatic RC smoothing” to ON, then adjusting the auto smoothing factor to fine-tune response to stick movements. This is particularly beneficial for radio links with dynamic refresh rates, such as ExpressLRS and Crossfire.
