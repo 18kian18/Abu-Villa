@@ -144,7 +144,7 @@ Place the drone on a level surface and go through the 6-step calibration. Note t
 
 It might seem a bit complicated at first, but don’t be afraid to start over if needed. The calibration doesn’t have to be super precise—just do your best to position the quad in each intended position.
 
-##Mixer Tab
+## Mixer Tab
 
 Normally, you shouldn’t need to change anything here since the “Default Values” should have applied these settings for you. However, it’s good practice to double-check.
 
