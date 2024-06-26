@@ -223,3 +223,37 @@ Now, you can test the radio link to ensure the channel values correctly respond 
 ![alt text](img/receiverTab.png)
 
 I recommend setting “Use automatic RC smoothing” to ON, then adjusting the auto smoothing factor to fine-tune response to stick movements. This is particularly beneficial for radio links with dynamic refresh rates, such as ExpressLRS and Crossfire.
+
+## GPS Tab
+- Check the GPS for navigation and telemetry
+- Select UBLOX protocol **Note:** you must check the gps if support UBLOX protocol.
+- Select Gps use Galileo Satellites (EU) **If supported**
+- Gps use Glonass Satellites (RU) **If supported**
+
+![alt text](img/gpsTab.png)
+
+## Advanced Tuning Tab
+Stick with default settings.
+
+## PID Tuning Tab
+Stick with default settings.
+
+## Failsafe Tab
+If you want to try the RTH,<br>
+select RTH
+![alt text](img/failsafeTab.png)
+
+## Modes Tab
+The Modes tab in iNav closely resembles that of Betaflight, but it uses CH5, CH6, etc., instead of AUX1, AUX2. It’s all quite straightforward.
+
+![alt text](img/modesTab.png)
+
+If using ExpressLRS receiver, be sure to assign CH5 to ARM, as this is the default channel for arming.
+
+Useful modes in iNav for an FPV drone include Angle mode, Turtle mode, Beeper. And if your drone is equipped with GPS, Nav Position Hold and Nav Return to Home are also very important.
+
+## OSD
+
+Under Video Format, select your preferred video system. Enable any elements you desire and arrange them as in Betaflight.
+
+![alt text](img/osdTabs.png)
