@@ -3,6 +3,11 @@
 Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
 
 
+# Building a Drone
+
+Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor; it's a journey of creativity, innovation, and hands-on learning. In this guide, we'll walk you through the exciting process of assembling your very own 5-inch drone.
+
+
 
 # Parts List
 | Component       |                                                  | Links                 |     price      |
@@ -21,7 +26,7 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 | Camera          |RunCam Phoenix 2                                  |https://amzn.to/4cuDY1n| $37.99 |
 
 **Total Estimated Cost:** <span class="math-inline">$919.18 \(approx\.\)<br>
-<span style="color: red;">**Notes:**</span>
+**Notes:**
 * The price for the battery was converted from Philippine Pesos (₱) to US Dollars ($) using an estimated exchange rate.
 * Prices are based on estimates and may vary depending on the retailer.
 * Additional parts and tools may be required for assembly and flight operation (e.g., soldering iron, battery charger).
