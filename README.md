@@ -10,20 +10,20 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 
 
 # Parts List
-| Component       |                                                  | Links                 |     price      |
-|-----------------|--------------------------------------------------|-----------------------|----------------|
-| Frame           |SpeedyBee Master 5 V2                             |https://amzn.to/3XUsccb| $119.99 |
-| FC & ESC (stack)|SpeedyBee V3 F7 Stack                             |https://amzn.to/3Wb61NN| $119.99 |
-| Motors          |iFlight XING2 2306 1755KV 6S                      |https://amzn.to/3XNwUZ9| $89.99 | 
-| Propellers      |Gemfan Hurricane                                  |https://amzn.to/3RWwPi3| $14.99 |
-| Battery         |Gaoneng LiPo Drone Battery 1850mah 6S 100c XT-60  |https://bit.ly/45ZHbnd | ₱1,990 (≈ $58.40) |
-| GPS Module      |BN-220 Dual GPS Glonass Module                    |https://amzn.to/3xIzmWo| $21.98 |
-| Receiver        |RadioMaster RP1 2.4ghz w/ ELRS                    |https://amzn.to/3W8TR7T| $19.99 |
-| Transmitter     |RadioMaster TX16S 2.4GHz                          |https://amzn.to/3xK6T2p| $109.90 |
-| Goggles         |Skyzone Cobra X Goggles                           |https://amzn.to/3W8aGQw| $279.98 |
-| VTX             |AKK X2-Ultimate 5.8GHz                            |https://amzn.to/45VfZGo| $23.99  |
-| Antenna         |FPV Antenna Lollipop 5.8G                         |https://amzn.to/3RUQZJA| $21.99 |
-| Camera          |RunCam Phoenix 2                                  |https://amzn.to/4cuDY1n| $37.99 |
+| Component      |                                                  | Links                 |     price      |
+|----------------|--------------------------------------------------|-----------------------|----------------|
+| Frame           |SpeedyBee Master 5 V2                             |[https://amzn.to/3XUsccb](https://amzn.to/3XUsccb)| $119.99 |
+| FC & ESC (stack)|SpeedyBee V3 F7 Stack                             |[https://amzn.to/3Wb61NN](https://amzn.to/3Wb61NN)| $119.99 |
+| Motors          |iFlight XING2 2306 1755KV 6S                      |[https://amzn.to/3XNwUZ9](https://amzn.to/3XNwUZ9)| $89.99 | 
+| Propellers      |Gemfan Hurricane                                  |[https://amzn.to/3RWwPi3](https://amzn.to/3RWwPi3)| $14.99 |
+| Battery         |Gaoneng LiPo Drone Battery 1850mah 6S 100c XT-60  |[https://bit.ly/45ZHbnd](https://bit.ly/45ZHbnd) | ₱1,990 (≈ $58.40) |
+| GPS Module      |BN-220 Dual GPS Glonass Module                    |[https://amzn.to/3xIzmWo](https://amzn.to/3xIzmWo)| $21.98 |
+| Receiver        |RadioMaster RP1 2.4ghz w/ ELRS                    |[https://amzn.to/3W8TR7T](https://amzn.to/3W8TR7T)| $19.99 |
+| Transmitter     |RadioMaster TX16S 2.4GHz                          |[https://amzn.to/3xK6T2p](https://amzn.to/3xK6T2p)| $109.90 |
+| Goggles         |Skyzone Cobra X Goggles                           |[https://amzn.to/3W8aGQw](https://amzn.to/3W8aGQw)| $279.98 |
+| VTX             |AKK X2-Ultimate 5.8GHz                            |[https://amzn.to/45VfZGo](https://amzn.to/45VfZGo)|$23.99  |
+| Antenna         |FPV Antenna Lollipop 5.8G                         |[https://amzn.to/3RUQZJA](https://amzn.to/3RUQZJA)| $21.99 |
+| Camera          |RunCam Phoenix 2                                  |[https://amzn.to/4cuDY1n](https://amzn.to/4cuDY1n)| $37.99 |
 
 **Total Estimated Cost:** <span class="math-inline">$919.18 \(approx\.\)<br>
 **Notes:**
