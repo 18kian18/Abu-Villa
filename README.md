@@ -1,29 +1,31 @@
-﻿# Building a Drone
+﻿# How to Build an FPV Drone (Analog)
 
-Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor;  its a journey of creativity, innovation, and hands-on learning. In this guide, we`ll walk you through the exciting process of assembling your very own 5-inch drone.
+![alt text](<img/bumble bee drone (3).jpg>)
+
+In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
+
+# Table of Contents
+1. **Parts List**
+2. **Essential Tools and Supplies**
 
 
-# Building a Drone
+## Parts List
+In this tutorial, we’ll be using the following parts to guide you through the FPV drone building process
 
-Welcome to **Abu Villa** world of drone building! Crafting your own drone is not just a technical endeavor; it's a journey of creativity, innovation, and hands-on learning. In this guide, we'll walk you through the exciting process of assembling your very own 5-inch drone.
-
-
-
-# Parts List
-| Component      |                                                  | Links                 |     price      |
-|----------------|--------------------------------------------------|-----------------------|----------------|
-| Frame           |SpeedyBee Master 5 V2                             |[https://amzn.to/3XUsccb](https://amzn.to/3XUsccb)| $119.99 |
-| FC & ESC (stack)|SpeedyBee V3 F7 Stack                             |[https://amzn.to/3Wb61NN](https://amzn.to/3Wb61NN)| $119.99 |
-| Motors          |iFlight XING2 2306 1755KV 6S                      |[https://amzn.to/3XNwUZ9](https://amzn.to/3XNwUZ9)| $89.99 | 
-| Propellers      |Gemfan Hurricane                                  |[https://amzn.to/3RWwPi3](https://amzn.to/3RWwPi3)| $14.99 |
-| Battery         |Gaoneng LiPo Drone Battery 1850mah 6S 100c XT-60  |[https://bit.ly/45ZHbnd](https://bit.ly/45ZHbnd) | ₱1,990 (≈ $58.40) |
-| GPS Module      |BN-220 Dual GPS Glonass Module                    |[https://amzn.to/3xIzmWo](https://amzn.to/3xIzmWo)| $21.98 |
-| Receiver        |RadioMaster RP1 2.4ghz w/ ELRS                    |[https://amzn.to/3W8TR7T](https://amzn.to/3W8TR7T)| $19.99 |
-| Transmitter     |RadioMaster TX16S 2.4GHz                          |[https://amzn.to/3xK6T2p](https://amzn.to/3xK6T2p)| $109.90 |
-| Goggles         |Skyzone Cobra X Goggles                           |[https://amzn.to/3W8aGQw](https://amzn.to/3W8aGQw)| $279.98 |
-| VTX             |AKK X2-Ultimate 5.8GHz                            |[https://amzn.to/45VfZGo](https://amzn.to/45VfZGo)|$23.99  |
-| Antenna         |FPV Antenna Lollipop 5.8G                         |[https://amzn.to/3RUQZJA](https://amzn.to/3RUQZJA)| $21.99 |
-| Camera          |RunCam Phoenix 2                                  |[https://amzn.to/4cuDY1n](https://amzn.to/4cuDY1n)| $37.99 |
+| Component       |                                                  | Links                 |     price      |
+|-----------------|--------------------------------------------------|-----------------------|----------------|
+| Frame           |SpeedyBee Master 5 V2                             |https://amzn.to/3XUsccb| $119.99 |
+| FC & ESC (stack)|SpeedyBee V3 F7 Stack                             |https://amzn.to/3Wb61NN| $119.99 |
+| Motors          |iFlight XING2 2306 1755KV 6S                      |https://amzn.to/3XNwUZ9| $89.99 | 
+| Propellers      |Gemfan Hurricane                                  |https://amzn.to/3RWwPi3| $14.99 |
+| Battery         |Gaoneng LiPo Drone Battery 1850mah 6S 100c XT-60  |https://bit.ly/45ZHbnd | ₱1,990 (≈ $58.40) |
+| GPS Module      |BN-220 Dual GPS Glonass Module                    |https://amzn.to/3xIzmWo| $21.98 |
+| Receiver        |RadioMaster RP1 2.4ghz w/ ELRS                    |https://amzn.to/3W8TR7T| $19.99 |
+| Transmitter     |RadioMaster TX16S 2.4GHz                          |https://amzn.to/3xK6T2p| $109.90 |
+| Goggles         |Skyzone Cobra X Goggles                           |https://amzn.to/3W8aGQw| $279.98 |
+| VTX             |AKK X2-Ultimate 5.8GHz                            |https://amzn.to/45VfZGo| $23.99  |
+| Antenna         |FPV Antenna Lollipop 5.8G                         |https://amzn.to/3RUQZJA| $21.99 |
+| Camera          |RunCam Phoenix 2                                  |https://amzn.to/4cuDY1n| $37.99 |
 
 **Total Estimated Cost:** <span class="math-inline">$919.18 \(approx\.\)<br>
 **Notes:**
@@ -32,11 +34,16 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 * Additional parts and tools may be required for assembly and flight operation (e.g., soldering iron, battery charger).
 </span>
 
-
-
+## Essential Tools and Supplies
+To successfully build your FPV drone, you’ll need the following tools and supplies. Some of these items may already be in your toolkit, while others can be easily found online or at your local hardware store:
+- Soldering Iron and solder
+- Soldering Flux
+- A pair of scissors for stripping and cutting wires
+- Shrinkable tube to organize wires
+- 3M double sided foam tape
+-A collection of 2mm wide zip ties (ideally 15cm or longer)
 ## Steps of Building FPV Drone
- - ## SpeedyBee Master 5 V2 Frame
-![alt text](img/frame.png)
+
 <p align="center"><span style="color:#E5C129; font-size:30px">Installation Guidelines</span><br></p>
 
 ![alt text](img/img1.png)
