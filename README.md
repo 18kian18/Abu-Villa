@@ -6,7 +6,12 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
 
 # Table of Contents
 1. **Parts List**
-2. **Essential Tools and Supplies**
+   - Essential Tools and Supplies
+   - Frame
+   - Stack
+   - Motors
+   - FPV Setup
+   - Radio Receiver
 
 
 ## Parts List
@@ -42,6 +47,46 @@ To successfully build your FPV drone, you’ll need the following tools and supp
 - Shrinkable tube to organize wires
 - 3M double sided foam tape
 -A collection of 2mm wide zip ties (ideally 15cm or longer)
+
+ ## Frame
+ ![alt text](img/frame.png)
+
+ I select this frame it because it designed to handle both cinematic and freestyle flying, Master 5 V2 with great Deadcat geometry, places the flight controller closer to the center of gravity than other DC frames
+
+The innovative anti-vibration stack structure dampens the effect of motor noise on the gyro, offering a stabilized running environment. Averaging 1.5 screws per arm, the quick-release structure makes assembly and disassembly easily
+
+Honeycomb-shaped aluminum alloy CNC drone head ensures a better strength and look, with H-FOV 130° section, the drone head gets a larger field of view. Furthermore, the incorporated DJI O3 Air Unit also supports ND filters and changeable side plate mounting
+
+The TPU side plate inside the CNC part helps dampen the vibration on the camera, and it can be modified by pilots on their own to get it compatible with more mounting holes and get rid of vignetting for clear images
+
+Under the VTX, there is a honeycomb-shaped aluminum alloy heat sink improving the operation stability of FPV and high-power analog VTX.
+
+ ## Stack
+ ![alt text](img/stack.png)
+
+ Selecting an “FC stack” – which includes both a flight controller board and a 4in1 ESC board – is a wise choice for beginners. With minimal soldering required, these stacks are often plug-and-play, making assembly smooth and straightforward.
+
+ ## Motors
+ ![alt text](img/motors.png)
+
+ While popular motors of similar sizes often have comparable performance, the key differentiator typically lies in their build quality. For a 5″ FPV drone, motor sizes such as 2306, 2207, and 2208 are all viable options – for further more info you can visit this link https://oscarliang.com/2306-2207-mini-quad-motor/
+
+ Another important factor to consider is motor KV, which is determined by battery voltage. For 6S LiPo, KV values ranging from 1600 to 1900 are common, with higher KV values providing more aggressive and power-hungry performance. In this build, we’re using 1855KV motors, as I plan to use 6S LiPo battery. While 4S builds are also popular, I personally prefer 6S over 4S you can visit this link https://oscarliang.com/6s-mini-quad-racing-drone/ for more idea.
+
+ ## FPV Setup
+ This FPV VTX delivers clearer video image, longer transmission range, and, most importantly, an unforgettable FPV flying experience. Moreover, it supports smart audio, pit mode. The power up to 1200mW is quiet suitable for longe range flight. 
+
+ ![alt text](<img/Akk x-2 ultimate.png>)
+
+ ## Radio Receiver
+
+ ![alt text](img/radioreceiver.png)
+
+Your choice of radio transmitter dictates the type of receiver (RX) you can use.your radio should support ExpressLRS
+ ExpressLRS is affordable, high-performance, and incredibly reliable!
+  I’ve selected the Radiomaster RP1 receiver, which ensures reliable, stable, and accurate signal reception, allowing for superior performance in demanding environments and enhancing the flight experience.
+**For Other equipment in the parts list table.**
+
 ## Steps of Building FPV Drone
 
 <p align="center"><span style="color:#E5C129; font-size:30px">Installation Guidelines</span><br></p>
