@@ -85,7 +85,7 @@ Under the VTX, there is a honeycomb-shaped aluminum alloy heat sink improving th
 Your choice of radio transmitter dictates the type of receiver (RX) you can use.your radio should support ExpressLRS
  ExpressLRS is affordable, high-performance, and incredibly reliable!
   I’ve selected the Radiomaster RP1 receiver, which ensures reliable, stable, and accurate signal reception, allowing for superior performance in demanding environments and enhancing the flight experience.
-**For Other equipment in the parts list table.**
+**For Other equipment check it out in the parts list table.**
 
 ## Steps of Building FPV Drone
 
