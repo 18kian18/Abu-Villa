@@ -1,9 +1,10 @@
 ﻿# How to Build an FPV Drone (Analog)
 
-![alt text](<img/bumble bee drone (3).jpg>)
+
 
 In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
 
+![alt text](<img/bumble bee drone (3).jpg>)
 # Table of Contents
 1. **Parts List**
    - Essential Tools and Supplies
@@ -12,6 +13,15 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
    - Motors
    - FPV Setup
    - Radio Receiver
+2. **Steps of Building FPV Drone**
+   - Frame Assembly
+   - Wiring Diagram
+   - Installing ESC
+   - Installing Motors 
+   - Installing Camera
+   - Installing GPS to Flight Controller
+   - Installing Receiver
+   - Installing VTX
 
 
 ## Parts List
@@ -89,7 +99,8 @@ Your choice of radio transmitter dictates the type of receiver (RX) you can use.
 
 ## Steps of Building FPV Drone
 
-<p align="center"><span style="color:#E5C129; font-size:30px">Installation Guidelines</span><br></p>
+<p align="center"><span style="color:#E5C129; font-size:30px">Frame Assembly</span><br></p>
+You don`t need to worry about the frame assemble because when you buy a frame for drone it provide manual of how to assemble that frame.
 
 ![alt text](img/img1.png)
 ![alt text](img/img2.png)
