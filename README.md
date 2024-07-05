@@ -20,7 +20,7 @@ Welcome to **Abu Villa** world of drone building! Crafting your own drone is not
 | Antenna         |FPV Antenna Lollipop 5.8G                        |https://amzn.to/3RUQZJA| $21.99 |
 | Camera          |RunCam Phoenix 2                                 |https://amzn.to/4cuDY1n| $37.99 |
 
-**Total Estimated Cost:** <span class="math-inline">876\.22 \(approx\.\)
+**Total Estimated Cost:** <span class="math-inline">919\.18 \(approx\.\)<br>
 \*\*Notes\:\*\*
 \* The price for the battery was converted from Philippine Pesos \(₱\) to US Dollars \(</span>) using an estimated exchange rate.
 * Prices are based on estimates and may vary depending on the retailer.
