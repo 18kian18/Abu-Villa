@@ -5,6 +5,7 @@
 In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
 
 ![alt text](<img/bumble bee drone (3).jpg>)
+
 # Table of Contents
 1. **Parts List**
    - Essential Tools and Supplies
@@ -172,7 +173,38 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 ## Software
 ![alt text](img/inav.png)
 
+# Table of Contents
+1. **What’s iNav?**
+2. **Why I use iNav on my Quads?**
+3. **Download iNav Configurator**
+4. **Checking iNav Compatibility**
+5. **Flashing iNav**
+6. **Default Values**
+7. **Setup Tab**
+   - Sensors
+   - Pre-arming Checks
+   - Board Orientation
+8. **Calibration Tab**
+9. **Mixer Tab**
+10. **Outputs Tab**
+11. **Ports Tab**
+12. **Configuration Tab**
+13. **How to bind receiver to transmitter?**
+14. **Receiver Tab**
+15. **GPS Tab**
+16. **Advanced Tuning Tab**
+17. **PID Tuning Tab**
+18. **Failsafe Tab**
+19. **Modes Tab**
+20. **OSD**
+
+
+
+## What’s iNav?
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
+
+## Why I use iNav on my Quads?
+While Betaflight is a popular choice for FPV (First Person View) racing drones, inav offers some distinct advantages that make it a compelling option for certain types of quadcopters, especially those built for long-range or autonomous flight. iNav stands out for its advanced GPS flight modes, far surpassing Betaflight’s capabilities. Not only it supports GPS return-to-home functionalities, but also position hold and autonomous waypoint missions.
 
 ## Download iNav Configurator
 - Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
@@ -200,6 +232,16 @@ Enable “Full chip erase” and leave the other options unchecked.
 - In the first page – Setup, you can view the status of your drone.
 ![alt text](img/setup-tab.png)
 
+## Sensors
+At the very top of the iNav Configurator, you’ll see an array of blue icons representing the sensors. These icons light up when the sensors are configured and functioning correctly, and they are not turned on, it means the sensor is not configured or is missing from your setup.
+
+The Gyro and Accel sensors should always be on. If your flight controller (FC) has a barometer, the Baro icon should also light up. Other common sensors for FPV drones include GPS and Mag (magnetometer – compass).
+
+## Pre-arming Checks
+On the right-hand panel, you’ll find the Pre-arm checks. All the listed items should display green ticks in order to arm the quad.
+
+If any of these items show a red cross, don’t worry—we will guide you through the setup in this tutorial. For instance, if you have enabled GPS but don’t have a lock, “Navigation is safe” will show a red cross, which is common indoors. Some flight controllers can power up the GPS with just the USB connection, but others might require the battery to be plugged in, so be aware.
+
 ## Board Orientation
 
 Hold the drone in your hand, point the camera towards the computer screen, and click the “Reset Z-Axis” button. Now move the drone around and see if the 3D model moves exactly as you do.
@@ -208,7 +250,7 @@ Troubleshooting:
 - If the 3D model is inverted (upside down), and you have a red cross next to “UAV is levelled” in pre-arming checks, you can fix this in the board alignment tool, e.g., enter 180 in roll.
 - If the drone moves in the opposite direction because the FC is rotated, you can also correct this in the board alignment tool, e.g., enter 180 in yaw.
 
-## Calibration Tab
+# Calibration Tab
 
 
 Here we will calibrate the accelerometer.
