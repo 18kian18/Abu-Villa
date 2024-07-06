@@ -354,6 +354,9 @@ Stick with default settings.
 
 ## PID Tuning Tab
 Stick with default settings.
+If you want to explore on PID Tuning Tab you can watch this video on how tunning
+Altitude HOLD 💫 Tuning 🏹  - https://www.youtube.com/watch?v=TpQTEX2SQEQ <br>
+Position HOLD 💫 Tuning 🏹  - https://www.youtube.com/watch?v=FEzYaRBpTuI&t=298s
 
 ## Failsafe Tab
 If you want to try the RTH,<br>
