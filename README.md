@@ -7,48 +7,22 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
 ![alt text](<img/bumble bee drone (3).jpg>)
 
 # Table of Contents
-- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
-- [Table of Contents](#table-of-contents)
-  - [Parts List](#parts-list)
-  - [Essential Tools and Supplies](#essential-tools-and-supplies)
-  - [Frame](#frame)
-  - [Stack](#stack)
-  - [Motors](#motors)
-  - [FPV Setup](#fpv-setup)
-  - [Radio Receiver](#radio-receiver)
-  - [Steps of Building FPV Drone](#steps-of-building-fpv-drone)
-  - [1. Installing ESC ](#1-installing-esc-)
-  - [2. Installing Motors](#2-installing-motors)
-  - [2. Installing Camera](#2-installing-camera)
-  - [3. Installing GPS to Flight Controller](#3-installing-gps-to-flight-controller)
-  - [3. Installing Receiver](#3-installing-receiver)
-  - [3. Installing VTX](#3-installing-vtx)
-  - [Software](#software)
-- [Table of Contents](#table-of-contents-1)
-  - [What’s iNav?](#whats-inav)
-  - [Why I use iNav on my Quads?](#why-i-use-inav-on-my-quads)
-  - [Download iNav Configurator](#download-inav-configurator)
-  - [Checking iNav Compatibility](#checking-inav-compatibility)
-  - [Flashing  INAV](#flashing--inav)
-  - [Default Values](#default-values)
-  - [Setup Tab](#setup-tab)
-  - [Sensors](#sensors)
-  - [Pre-arming Checks](#pre-arming-checks)
-  - [Board Orientation](#board-orientation)
-- [Calibration Tab](#calibration-tab)
-  - [Mixer Tab](#mixer-tab)
-  - [Outputs Tab](#outputs-tab)
-  - [Ports Tab](#ports-tab)
-  - [Configuration Tab](#configuration-tab)
-  - [How to bind receiver to transmitter?](#how-to-bind-receiver-to-transmitter)
-  - [Receiver Tab](#receiver-tab)
-  - [GPS Tab](#gps-tab)
-  - [Advanced Tuning Tab](#advanced-tuning-tab)
-  - [PID Tuning Tab](#pid-tuning-tab)
-  - [Failsafe Tab](#failsafe-tab)
-  - [Modes Tab](#modes-tab)
-  - [OSD](#osd)
-
+1. **Parts List**
+   - Essential Tools and Supplies
+   - Frame
+   - Stack
+   - Motors
+   - FPV Setup
+   - Radio Receiver
+2. **Steps of Building FPV Drone**
+   - Frame Assembly
+   - Wiring Diagram
+   - Installing ESC
+   - Installing Motors 
+   - Installing Camera
+   - Installing GPS to Flight Controller
+   - Installing Receiver
+   - Installing VTX
 
 
 ## Parts List
