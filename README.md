@@ -1,15 +1,7 @@
-﻿# How to Build an FPV Drone (Analog)
+﻿# Table of Contents
 
-
-
-In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
-
-![alt text](<img/bumble bee drone (3).jpg>)
-
-# Table of Contents
-
-- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
 - [Table of Contents](#table-of-contents)
+- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
 - [Parts List](#parts-list)
   - [Essential Tools and Supplies](#essential-tools-and-supplies)
   - [Frame](#frame)
@@ -49,6 +41,12 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
 - [OSD](#osd)
 
 
+
+# How to Build an FPV Drone (Analog)
+
+In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
+
+![alt text](<img/bumble bee drone (3).jpg>)
 
 # Parts List
 In this tutorial, we’ll be using the following parts to guide you through the FPV drone building process
