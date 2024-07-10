@@ -7,22 +7,49 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
 ![alt text](<img/bumble bee drone (3).jpg>)
 
 # Table of Contents
-1. **Parts List**
-   - Essential Tools and Supplies
-   - Frame
-   - Stack
-   - Motors
-   - FPV Setup
-   - Radio Receiver
-2. **Steps of Building FPV Drone**
-   - Frame Assembly
-   - Wiring Diagram
-   - Installing ESC
-   - Installing Motors 
-   - Installing Camera
-   - Installing GPS to Flight Controller
-   - Installing Receiver
-   - Installing VTX
+
+- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
+- [Table of Contents](#table-of-contents)
+  - [Parts List](#parts-list)
+  - [Essential Tools and Supplies](#essential-tools-and-supplies)
+  - [Frame](#frame)
+  - [Stack](#stack)
+  - [Motors](#motors)
+  - [FPV Setup](#fpv-setup)
+  - [Radio Receiver](#radio-receiver)
+  - [Steps of Building FPV Drone](#steps-of-building-fpv-drone)
+  - [Installing ESC ](#installing-esc-)
+  - [Installing Motors](#installing-motors)
+  - [Installing Camera](#installing-camera)
+  - [Installing GPS to Flight Controller](#installing-gps-to-flight-controller)
+  - [Installing Receiver](#installing-receiver)
+  - [Installing VTX](#installing-vtx)
+  - [Software](#software)
+- [Table of Contents](#table-of-contents-1)
+  - [What’s iNav?](#whats-inav)
+  - [Why I use iNav on my Quads?](#why-i-use-inav-on-my-quads)
+  - [Download iNav Configurator](#download-inav-configurator)
+  - [Checking iNav Compatibility](#checking-inav-compatibility)
+  - [Flashing  INAV](#flashing--inav)
+  - [Default Values](#default-values)
+  - [Setup Tab](#setup-tab)
+  - [Sensors](#sensors)
+  - [Pre-arming Checks](#pre-arming-checks)
+  - [Board Orientation](#board-orientation)
+- [Calibration Tab](#calibration-tab)
+  - [Mixer Tab](#mixer-tab)
+  - [Outputs Tab](#outputs-tab)
+  - [Ports Tab](#ports-tab)
+  - [Configuration Tab](#configuration-tab)
+  - [How to bind receiver to transmitter?](#how-to-bind-receiver-to-transmitter)
+  - [Receiver Tab](#receiver-tab)
+  - [GPS Tab](#gps-tab)
+  - [Advanced Tuning Tab](#advanced-tuning-tab)
+  - [PID Tuning Tab](#pid-tuning-tab)
+  - [Failsafe Tab](#failsafe-tab)
+  - [Modes Tab](#modes-tab)
+  - [OSD](#osd)
+
 
 
 ## Parts List
@@ -117,14 +144,14 @@ Before proceeding, it’s a good idea to create a wiring diagram on a piece of p
 ![alt text](img/wiringfc.png)
 
 
-## 1. Installing ESC <br>
+## Installing ESC <br>
 Begin by replacing the four shorter screws in the frame with the long M3 30mm bolts that come with the Speedybee F405 V3 stack. Avoid using nylon standoffs for installing FC, ESC and VTX, they break easily in crashes. Use metal bolts instead.
 Use metal bolts for installing stack (with a metal nut at the botttom), it reduces vibration and wobble, makes the drone fly better and easier to tune.
 
 - Slide the 4in1 ESC and FC boards onto the four long screws, ensuring the ESC board’s power pads face backward and the motor solder pads face up. The front of the frame is identifiable by the cut-outs for the camera mounting plates.
 - Inspect the bottom of the ESC to ensure it’s not touching the frame. Additionally, check for any contact between the ESC and FC.
 Next, you’ll do some soldering
-## 2. Installing Motors 
+## Installing Motors 
 ![alt text](img/motors-wiring.png) 
 - Determine the required motor wire lengths, leaving a little slack, and cut them accordingly. Secure the motor wires on the arms with cloth tape or electrical tape.
 - Then, strip about 2mm off the tip of the wires and tin the ends.
@@ -142,11 +169,11 @@ Soldering Tips:
 - Now solder the 1500uF capacitor that comes with the Speedybee stack. Bend and shorten the legs with pliers, then tin them with solder.
 - Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
 
-## 2. Installing Camera
+## Installing Camera
 ![alt text](img/RUNCAM.png)
 - Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
 
-## 3. Installing GPS to Flight Controller
+## Installing GPS to Flight Controller
 Wiring a GPS module to the flight controller is quite straightforward. Simply connect it directly to any available UART on the FC, (TX to RX, RX to TX), and power it with 5V.
 ![alt text](img/modifyGPS.png)
 - Solder the **5v** wire of the gps to the **4v5** pad of the FC 
@@ -156,14 +183,14 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 - Solder the **SDA** wire of the gps to the **SDA** pad of the FC (if GPS has a compass/barometer) 
 - Solder the **SCL** wire of the gps to the **SCL** pad of the FC (if GPS has a compass/barometer)
 
-## 3. Installing Receiver
+## Installing Receiver
 ![alt text](img/receiver.png)
 - Solder the **5v** wire of the receiver  to the **4v5** pad of the FC
 - Solder the **G** wire of the receiver  to the **G** pad of the FC
 - Solder the **RX** wire of the receiver  to the **T2** pad of the FC
 - Solder the **TX** wire of the receiver  to the **R2** pad of the FC
 
-## 3. Installing VTX
+## Installing VTX
  ![alt text](<img/VTX (1).png>)
 - Solder the **7-26v** wire of the vtx  to the **9v** pad of the FC
 - Solder the **G** wire of the vtx  to the **G** pad of the FC
