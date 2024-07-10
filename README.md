@@ -7,25 +7,50 @@ In this tutorial, I’ll walk you through the process of building an FPV drone f
 ![alt text](<img/bumble bee drone (3).jpg>)
 
 # Table of Contents
-1. **Parts List**
-   - Essential Tools and Supplies
-   - Frame
-   - Stack
-   - Motors
-   - FPV Setup
-   - Radio Receiver
-2. **Steps of Building FPV Drone**
-   - Frame Assembly
-   - Wiring Diagram
-   - Installing ESC
-   - Installing Motors 
-   - Installing Camera
-   - Installing GPS to Flight Controller
-   - Installing Receiver
-   - Installing VTX
+
+- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
+- [Table of Contents](#table-of-contents)
+- [Parts List](#parts-list)
+  - [Essential Tools and Supplies](#essential-tools-and-supplies)
+  - [Frame](#frame)
+  - [Stack](#stack)
+  - [Motors](#motors)
+  - [FPV Setup](#fpv-setup)
+  - [Radio Receiver](#radio-receiver)
+- [Steps of Building FPV Drone](#steps-of-building-fpv-drone)
+  - [Installing ESC ](#installing-esc-)
+  - [Installing Motors](#installing-motors)
+  - [Installing Camera](#installing-camera)
+  - [Installing GPS to Flight Controller](#installing-gps-to-flight-controller)
+  - [Installing Receiver](#installing-receiver)
+  - [Installing VTX](#installing-vtx)
+- [What’s iNav?](#whats-inav)
+- [Why I use iNav on my Quads?](#why-i-use-inav-on-my-quads)
+- [Download iNav Configurator](#download-inav-configurator)
+- [Checking iNav Compatibility](#checking-inav-compatibility)
+- [Flashing  INAV](#flashing--inav)
+- [Default Values](#default-values)
+- [Setup Tab](#setup-tab)
+  - [Sensors](#sensors)
+  - [Pre-arming Checks](#pre-arming-checks)
+  - [Board Orientation](#board-orientation)
+- [Calibration Tab](#calibration-tab)
+- [Mixer Tab](#mixer-tab)
+- [Outputs Tab](#outputs-tab)
+- [Ports Tab](#ports-tab)
+- [Configuration Tab](#configuration-tab)
+- [How to bind receiver to transmitter?](#how-to-bind-receiver-to-transmitter)
+- [Receiver Tab](#receiver-tab)
+- [GPS Tab](#gps-tab)
+- [Advanced Tuning Tab](#advanced-tuning-tab)
+- [PID Tuning Tab](#pid-tuning-tab)
+- [Failsafe Tab](#failsafe-tab)
+- [Modes Tab](#modes-tab)
+- [OSD](#osd)
 
 
-## Parts List
+
+# Parts List
 In this tutorial, we’ll be using the following parts to guide you through the FPV drone building process
 
 | Component       |                                                  | Links                 |     price      |
@@ -98,7 +123,7 @@ Your choice of radio transmitter dictates the type of receiver (RX) you can use.
   I’ve selected the Radiomaster RP1 receiver, which ensures reliable, stable, and accurate signal reception, allowing for superior performance in demanding environments and enhancing the flight experience.
 **For Other equipment check it out in the parts list table.**
 
-## Steps of Building FPV Drone
+# Steps of Building FPV Drone
 
 <p align="center"><span style="color:#E5C129; font-size:30px">Frame Assembly</span><br></p>
 You don`t need to worry about the frame assemble because when you buy a frame for drone it provide manual of how to assemble that frame.
@@ -117,14 +142,14 @@ Before proceeding, it’s a good idea to create a wiring diagram on a piece of p
 ![alt text](img/wiringfc.png)
 
 
-## 1. Installing ESC <br>
+## Installing ESC <br>
 Begin by replacing the four shorter screws in the frame with the long M3 30mm bolts that come with the Speedybee F405 V3 stack. Avoid using nylon standoffs for installing FC, ESC and VTX, they break easily in crashes. Use metal bolts instead.
 Use metal bolts for installing stack (with a metal nut at the botttom), it reduces vibration and wobble, makes the drone fly better and easier to tune.
 
 - Slide the 4in1 ESC and FC boards onto the four long screws, ensuring the ESC board’s power pads face backward and the motor solder pads face up. The front of the frame is identifiable by the cut-outs for the camera mounting plates.
 - Inspect the bottom of the ESC to ensure it’s not touching the frame. Additionally, check for any contact between the ESC and FC.
 Next, you’ll do some soldering
-## 2. Installing Motors 
+## Installing Motors 
 ![alt text](img/motors-wiring.png) 
 - Determine the required motor wire lengths, leaving a little slack, and cut them accordingly. Secure the motor wires on the arms with cloth tape or electrical tape.
 - Then, strip about 2mm off the tip of the wires and tin the ends.
@@ -142,11 +167,11 @@ Soldering Tips:
 - Now solder the 1500uF capacitor that comes with the Speedybee stack. Bend and shorten the legs with pliers, then tin them with solder.
 - Solder the capacitor to the wires connected to the ESC power pads earlier, being mindful of the polarity. The side with yellow marking is the negative side of the capacitor.
 
-## 2. Installing Camera
+## Installing Camera
 ![alt text](img/RUNCAM.png)
 - Solder the CAMERA wires connect to the flight controller **5v, ground, cam** pads.
 
-## 3. Installing GPS to Flight Controller
+## Installing GPS to Flight Controller
 Wiring a GPS module to the flight controller is quite straightforward. Simply connect it directly to any available UART on the FC, (TX to RX, RX to TX), and power it with 5V.
 ![alt text](img/modifyGPS.png)
 - Solder the **5v** wire of the gps to the **4v5** pad of the FC 
@@ -156,67 +181,40 @@ Wiring a GPS module to the flight controller is quite straightforward. Simply co
 - Solder the **SDA** wire of the gps to the **SDA** pad of the FC (if GPS has a compass/barometer) 
 - Solder the **SCL** wire of the gps to the **SCL** pad of the FC (if GPS has a compass/barometer)
 
-## 3. Installing Receiver
+## Installing Receiver
 ![alt text](img/receiver.png)
 - Solder the **5v** wire of the receiver  to the **4v5** pad of the FC
 - Solder the **G** wire of the receiver  to the **G** pad of the FC
 - Solder the **RX** wire of the receiver  to the **T2** pad of the FC
 - Solder the **TX** wire of the receiver  to the **R2** pad of the FC
 
-## 3. Installing VTX
+## Installing VTX
  ![alt text](<img/VTX (1).png>)
 - Solder the **7-26v** wire of the vtx  to the **9v** pad of the FC
 - Solder the **G** wire of the vtx  to the **G** pad of the FC
 - Solder the **Video** wire of the vtx  to the **VTX** pad of the FC
 - Solder the **Smart Audio(SA)** wire of the recvtxeiver  to the **T1** pad of the FC
 
-## Software
+
 ![alt text](img/inav.png)
 
-# Table of Contents
-1. **What’s iNav?**
-2. **Why I use iNav on my Quads?**
-3. **Download iNav Configurator**
-4. **Checking iNav Compatibility**
-5. **Flashing iNav**
-6. **Default Values**
-7. **Setup Tab**
-   - Sensors
-   - Pre-arming Checks
-   - Board Orientation
-8. **Calibration Tab**
-9. **Mixer Tab**
-10. **Outputs Tab**
-11. **Ports Tab**
-12. **Configuration Tab**
-13. **How to bind receiver to transmitter?**
-14. **Receiver Tab**
-15. **GPS Tab**
-16. **Advanced Tuning Tab**
-17. **PID Tuning Tab**
-18. **Failsafe Tab**
-19. **Modes Tab**
-20. **OSD**
-
-
-
-## What’s iNav?
+# What’s iNav?
 Inav is a flight control software, which was forked from Clean Flight. The software supports both multi-rotors and fixed wings and has good GPS modes like Return to launch (RTH) etc. The software has a mission planner, which allows for setting full autopilot GPS way-point navigation. It supports a variety of Flight controller boards and is actively being developed by the community.
 
-## Why I use iNav on my Quads?
+# Why I use iNav on my Quads?
 While Betaflight is a popular choice for FPV (First Person View) racing drones, inav offers some distinct advantages that make it a compelling option for certain types of quadcopters, especially those built for long-range or autonomous flight. iNav stands out for its advanced GPS flight modes, far surpassing Betaflight’s capabilities. Not only it supports GPS return-to-home functionalities, but also position hold and autonomous waypoint missions.
 
-## Download iNav Configurator
+# Download iNav Configurator
 - Download the latest iNav Configurator here: https://github.com/iNavFlight/inav-configurator/releases
 
-## Checking iNav Compatibility
+# Checking iNav Compatibility
 - Before proceeding, verify if your flight controller is compatible with iNav.
 In the iNav Configurator, on the Firmware Flasher page, search for your FC’s firmware target. If it’s listed, congratulations, you can proceed to the next step. If not compatible, consider getting a new FC, such as the Speedybee F405 V4 – an affordable, feature-rich option ideal for an iNav drone build.
 
 ![alt text](img/firmware.png)
  
 
- ## Flashing  INAV
+ # Flashing  INAV
  - First if you have an existing setup in Betaflight you need to backup your setup before you proceed INAV, Then if you have done backup you setup in BetaFlight.<br> Select the firmware target for your FC. Note that the Auto-select button may not work if your FC is still running Betaflight.
 
 Enable “Full chip erase” and leave the other options unchecked. 
@@ -224,11 +222,11 @@ Enable “Full chip erase” and leave the other options unchecked.
 ![alt text](img/Flashing-INAV.png)
 
 
-## Default Values
+# Default Values
 - After installing iNav, you’ll be prompted to choose a preset that most closely matches your quad, such as 3-inch, 5-inch, or 7-inch quad.
 ![alt text](img/sizequad.png)
 
-## Setup Tab
+# Setup Tab
 - In the first page – Setup, you can view the status of your drone.
 ![alt text](img/setup-tab.png)
 
@@ -261,7 +259,7 @@ Place the drone on a level surface and go through the 6-step calibration. Note t
 
 It might seem a bit complicated at first, but don’t be afraid to start over if needed. The calibration doesn’t have to be super precise—just do your best to position the quad in each intended position.
 
-## Mixer Tab
+# Mixer Tab
 
 Normally, you shouldn’t need to change anything here since the “Default Values” should have applied these settings for you. However, it’s good practice to double-check.
 
@@ -274,7 +272,7 @@ If you want to run reverse motor direction (props out), select “Reversed motor
 
 Click Save and Reboot.
 
-## Outputs Tab
+# Outputs Tab
 
 This tab functions similarly to the Motors tab in Betaflight.
 
@@ -299,15 +297,15 @@ Now, test the motors using the sliders in the Outputs tab to check if they spin,
 Unlike Betaflight, iNav does not support resource remapping. To change motor order, you can adjust settings in the Mixer tab. Remember, after making changes, just hit Save and Reboot—there’s no need to click LOAD and APPLY. After changing the motor order in the Mixer, it won’t reflect in the outputs tab, but you should conduct a test hover to make sure it works correctly.
 
 
-## Ports Tab
+# Ports Tab
 Setting up ports in iNav should feel familiar to those used to Betaflight. If you’ve taken screenshots from Betaflight, you can simply replicate the setup here.
 
 ![alt text](img/portstab.png)
 
-## Configuration Tab
+# Configuration Tab
 In the Configuration tab, you can select the sensors connected to the flight controller, such as GPS, compass, barometer, optical flow sensor, etc.
 
-## How to bind receiver to transmitter?
+# How to bind receiver to transmitter?
 Here are the steps for binding a traditional RC receiver to a transmitter using the "plug in the battery 3 times" method.
 
 1. Prepare the transmitter:
@@ -332,7 +330,7 @@ Here are the steps for binding a traditional RC receiver to a transmitter using 
 6. Verify the Connection:
     - Move the transmitter's controls and observe the corresponding movements on the connected devices (e.g., servos, motors) on the receiver tab in INAV.
 
-## Receiver Tab
+# Receiver Tab
 For ExpressLRS or Crossfire receivers, select SERIAL as the receiver type, and CRSF as the receiver provider. Click Save and Reboot.
 
 Now, you can test the radio link to ensure the channel values correctly respond to your radio stick movements. If the channel order is wrong, try a different channel map.
@@ -341,7 +339,7 @@ Now, you can test the radio link to ensure the channel values correctly respond 
 
 I recommend setting “Use automatic RC smoothing” to ON, then adjusting the auto smoothing factor to fine-tune response to stick movements. This is particularly beneficial for radio links with dynamic refresh rates, such as ExpressLRS and Crossfire.
 
-## GPS Tab
+# GPS Tab
 - Check the GPS for navigation and telemetry
 - Select UBLOX protocol **Note:** you must check the gps if support UBLOX protocol.
 - Select Gps use Galileo Satellites (EU) **If supported**
@@ -349,21 +347,21 @@ I recommend setting “Use automatic RC smoothing” to ON, then adjusting the a
 
 ![alt text](img/gpsTab.png)
 
-## Advanced Tuning Tab
+# Advanced Tuning Tab
 Stick with default settings.
 
-## PID Tuning Tab
+# PID Tuning Tab
 Stick with default settings.
 If you want to explore on PID Tuning Tab you can watch this video on how tunning
 Altitude HOLD 💫 Tuning 🏹  - https://www.youtube.com/watch?v=TpQTEX2SQEQ <br>
 Position HOLD 💫 Tuning 🏹  - https://www.youtube.com/watch?v=FEzYaRBpTuI&t=298s
 
-## Failsafe Tab
+# Failsafe Tab
 If you want to try the RTH,<br>
 select RTH
 ![alt text](img/failsafeTab.png)
 
-## Modes Tab
+# Modes Tab
 The Modes tab in iNav closely resembles that of Betaflight, but it uses CH5, CH6, etc., instead of AUX1, AUX2. It’s all quite straightforward.
 
 ![alt text](img/modesTab.png)
@@ -372,7 +370,7 @@ If using ExpressLRS receiver, be sure to assign CH5 to ARM, as this is the defau
 
 Useful modes in iNav for an FPV drone include Angle mode, Turtle mode, Beeper. And if your drone is equipped with GPS, Nav Position Hold and Nav Return to Home are also very important.
 
-## OSD
+# OSD
 
 Under Video Format, select your preferred video system. Enable any elements you desire and arrange them as in Betaflight.
 
