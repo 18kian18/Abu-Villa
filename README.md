@@ -1,7 +1,7 @@
 ﻿# Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [How to Build an FPV Drone (Analog)](#how-to-build-an-fpv-drone-analog)
+- [How to Build an FPV 5" Drone (Analog)](#how-to-build-an-fpv-5-drone-analog)
 - [Parts List](#parts-list)
   - [Essential Tools and Supplies](#essential-tools-and-supplies)
   - [Frame](#frame)
@@ -42,7 +42,7 @@
 
 
 
-# How to Build an FPV Drone (Analog)
+# How to Build an FPV 5" Drone (Analog)
 
 In this tutorial, I’ll walk you through the process of building an FPV drone from scratch, providing detailed guidance for analogue FPV systems. We’ll cover everything from selecting the right components, to wiring and assembly, and even share insider tips and tricks to ensure you have a reliable and enjoyable FPV drone experience.
 
